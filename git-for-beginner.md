@@ -36,21 +36,35 @@
 
 먼저 fork 한 프로젝트를 clone 하여 작업할 공간을 만든다. 그 다음 `git remote -v` 명령을 통해 현재 원격 저장소로 등록된 목록을 확인해준다. 
 
-![remote_1](./git-for-beginner/remote_1.png)
+![remote_1](./git-for-beginner/git_remote_1.png)
 
 아직은 origin으로 등록된 내 원격 저장소의 프로젝트 경로만 보인다. 이제 원본 프로젝트를 다음의 명령으로 추가해주자.
 
 ```git
-$ git remote add upstream {원본 프로젝트 url 경로}
+$ git remote add upstream (원본 프로젝트 url 경로)
 ```
 
 원본 프로젝트의 url 경로를 추가해주면 다음과 같이 등록된 것을 확인할 수 있다.
 
-![remote_2](./git-for-beginner/remote_2.png)
+![remote_2](./git-for-beginner/git_remote_2.png)
 
-이제 원본 프로젝트의 최신 코드를 가져와 현재 작업중인 공간으로 가져온다.
+이제 `fetch` 명령을 통해 원본 프로젝트의 최신 코드를 현재 작업중인 로컬 저장소로 가져온다.
 
+`git fetch` 명령어는 코드를 가져올 프로젝트를 위에서 설정한 `upstream` 으로 입력해준다. 
 
+![remote_3](./git-for-beginner/git_remote_3.png)
+
+명령어가 제대로 실행되었다면 `upstream` 으로 설정한 원본 프로젝트의 최신 코드를 가져올 수 있다.
+
+그 다음 최신 코드로 적용하기 위한 브랜치를 `checkout`으로 가서 나의 로컬 저장소에 `merge` 하면 최신 코드가 적용이 된다.
+
+![remote_4](./git-for-beginner/git_remote_4.png)
+
+![remote_5](./git-for-beginner/git_remote_5.png)
+
+마지막으로 `merge` 완료한 최종 코드를 나의 원격 저장소에 `push`하여 나의 github 저장소의 코드도 최신으로 바꿔주면 끝난다.
+
+![remote_6](./git-for-beginner/git_remote_6.png)
 
 ### Fork 한 코드에 브랜치 새로 만들어 작업하기
 

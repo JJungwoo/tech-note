@@ -18,7 +18,7 @@
 
 원본 프로젝트 저장소에서 Fork를 하면 자신의 저장소에 새로 복사된 것을 확인할 수 있다.
 
-![result_fork](./git-for-beginner/result_fork.png)
+![result_fork](./git-for-beginner/ex_complete_fork.png)
 
 따라서 이후 작업은 Fork한 저장소에서 진행하면 된다.
 
@@ -50,6 +50,10 @@ $ git remote add upstream (원본 프로젝트 url 경로)
 
 이제 `fetch` 명령을 통해 원본 프로젝트의 최신 코드를 현재 작업중인 로컬 저장소로 가져온다.
 
+```git
+$ git fetch (코드를 가져올 원격 저장소)
+```
+
 `git fetch` 명령어는 코드를 가져올 프로젝트를 위에서 설정한 `upstream` 으로 입력해준다. 
 
 ![remote_3](./git-for-beginner/git_remote_3.png)
@@ -59,6 +63,10 @@ $ git remote add upstream (원본 프로젝트 url 경로)
 그 다음 최신 코드로 적용하기 위한 브랜치를 `checkout`으로 가서 나의 로컬 저장소에 `merge` 하면 최신 코드가 적용이 된다.
 
 ![remote_4](./git-for-beginner/git_remote_4.png)
+
+```git
+$ git merge (원격 저장소/브랜치) (코드를 합칠 현재 나의 로컬 저장소의 브랜치)
+```
 
 ![remote_5](./git-for-beginner/git_remote_5.png)
 

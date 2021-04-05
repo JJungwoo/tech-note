@@ -71,9 +71,9 @@ spring.main.allow-bean-definition-overriding=true
 
 이후 QClass를 생성하려면 아래의 사진처럼 Gradle Project에서 compileJava를 실행시켜주면 src/main/generated 에 QClass가 생성된다.
 
-![gradle_project_setting](./jpa/querydsl_setting1.png)
+![gradle_project_setting](./querydsl_setting1.png)
 
-![query_compileJava](./jpa/querydsl_setting2.jpg)
+![query_compileJava](./querydsl_setting2.jpg)
 
 
 ### Java Config
@@ -187,7 +187,7 @@ public class UserRepositorySupport extends QuerydslRepositorySupport {
 
 아까와 마찬가지로 아래의 사진처럼 gradle project 에 compileQuerydsl 을 눌러서 인식하도록 할수 있다.
 
-![query_compileQuerydsl](./jpa/querydsl_setting3.jpg)
+![query_compileQuerydsl](./querydsl_setting3.jpg)
 
 ### querydsl 테스트 코드 작성하기
 
@@ -246,7 +246,7 @@ public class UserRepositoryTest {
 }
 ```
 
-![querydsl_testcode](./jpa/querydsl_testcode1.jpg)
+![querydsl_testcode](./querydsl_testcode1.jpg)
 
 ref
 - https://stackoverflow.com/questions/53787550/jpaauditinghandler-defined-in-null-on-application-startup-using-spring-boot

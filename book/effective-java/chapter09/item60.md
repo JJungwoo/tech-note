@@ -90,3 +90,4 @@ public static void main(String[] args) {
   - long : 열여덟 자리 십진수
   - BigDecimal : 열여덟 자리를 넘어간 십진수
 
+- 참고 : 이펙티브 자바 3/E

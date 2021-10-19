@@ -16,3 +16,4 @@
 
 - [2021.10.13 1008. Construct Binary Search Tree from Preorder Traversal - Medium - tree](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/1008.md)
 - [2021.10.14 279. Perfect Squares - Medium - dp](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/279.md)
+- [2021.10.19 496. Next Greater Element I - Easy - stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/463.md)

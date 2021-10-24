@@ -18,3 +18,4 @@
 - [2021.10.14 279. Perfect Squares - Medium - dp](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/279.md)
 - [2021.10.19 496. Next Greater Element I - Easy - stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/463.md)
 - [2021.10.21 380. Insert Delete GetRandom O(1) - Medium - HashTable](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/380.md)
+- [2021.10.22 451. Sort Characters By Frequency - Medium - sort](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/451.md)

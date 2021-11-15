@@ -14,9 +14,18 @@
 
 ### Daily Solve
 
-- [2021.10.13 1008. Construct Binary Search Tree from Preorder Traversal - Medium - tree](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/1008.md)
-- [2021.10.14 279. Perfect Squares - Medium - dp](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/279.md)
-- [2021.10.19 496. Next Greater Element I - Easy - stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/463.md)
-- [2021.10.21 380. Insert Delete GetRandom O(1) - Medium - HashTable](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/380.md)
-- [2021.10.22 451. Sort Characters By Frequency - Medium - sort](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/451.md)
-- [2021.10.26 155. Min Stack - Easy - stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/155.md)
+- 2021.10월
+  - [2021.10.13 1008. Construct Binary Search Tree from Preorder Traversal - Medium - Tree](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/1008.md)
+  - [2021.10.14 279. Perfect Squares - Medium - Dp](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/279.md)
+  - [2021.10.19 496. Next Greater Element I - Easy - Stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/463.md)
+  - [2021.10.21 380. Insert Delete GetRandom O(1) - Medium - HashTable](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/380.md)
+  - [2021.10.22 451. Sort Characters By Frequency - Medium - Sort](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Medium/451.md)
+  - [2021.10.25 155. Min Stack - Easy - Stack](https://github.com/JJungwoo/tech-note/blob/main/algorithm/leetCode/Easy/155.md)
+  - [2021.10.27 75. Sort Colors - Medium - Stack]
+
+- 2021.11월
+  - [2021.11.03 129. Sum Root to Leaf Numbers - Medium -Tree]
+  - [2021.11.04 404. Sum of Left Leaves - Easy - Tree]
+  - [2021.11.05 441. Arranging Coins - Easy - Binary Search]
+  - [2021.11.12 203. Remove Linked List Elements - Easy - Linked List]
+  - [2021.11.13 739. Daily Temperatures - Medium - Stack]

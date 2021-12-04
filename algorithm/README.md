@@ -6,6 +6,7 @@
 - [1189. 컴백홈 - backtracking](https://github.com/JJungwoo/tech-note/blob/main/algorithm/baekjoon/1189.md)
 - [18429. 근손실 - backtracking](https://github.com/JJungwoo/tech-note/blob/main/algorithm/baekjoon/18429.md)
 - [2021.11.29 1946. 신입 사원 - greedy]
+- [2021.12.04 23561. Young한 에너지는 부족하다 - greedy](https://github.com/JJungwoo/tech-note/blob/main/algorithm/baekjoon/23561.md)
 
 ## Programmers
 

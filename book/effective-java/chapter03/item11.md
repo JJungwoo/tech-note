@@ -23,7 +23,7 @@ m.get(new PhoneNumber(707, 867, 5309), "제니"); // 논리적 동치이지만 �
 
 - equals와 hashCode 함수 관계(1)
 
-![equals_hashCode](images/equals_hashCode.png)
+![equals_hashCode](../images/equals_hashCode.png)
 
 ## hashCode에 따른 발생 상황
 
@@ -31,7 +31,7 @@ m.get(new PhoneNumber(707, 867, 5309), "제니"); // 논리적 동치이지만 �
 
 - hashCode 결과 값에 따른 hashTable 예시(2)
 
-![hashCode_hashTable](images/hashCode_hashTable.png)
+![hashCode_hashTable](../images/hashCode_hashTable.png)
 
 >나쁜 해시 함수는 모든 객체가 해시테이블의 버킷 하나에 담겨 연결 리스트(linked list)처럼 동작하여 성능 저하가 발생하는 상황을 초래한다.
 

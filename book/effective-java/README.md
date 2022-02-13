@@ -36,3 +36,7 @@
 - [item75: 예외의 상세 메시지에 실패 관련 정보를 담으라](https://github.com/JJungwoo/tech-note/blob/main/book/effective-java/chapter10/item75.md)
 - [item76: 가능한 한 실패 원자적으로 만들라](https://github.com/JJungwoo/tech-note/blob/main/book/effective-java/chapter10/item76.md)
 
+### Chapter12
+
+- [item85: 자바 직렬화의 대안을 찾으라](https://github.com/JJungwoo/tech-note/blob/main/book/effective-java/chapter12/item85.md)
+- [item86: Serializable을 구현할지는 신중히 결정하라](https://github.com/JJungwoo/tech-note/blob/main/book/effective-java/chapter12/item86.md)

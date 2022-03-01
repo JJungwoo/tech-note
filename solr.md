@@ -85,4 +85,32 @@ Field는 solr에 색인할 문서가 어떻게 색인될지 정의하는 정보�
 </fieldType>
 ```
 
+### Field Default Properties
+
+|Property|Description|Values|Implicit Default|
+|---|---|---|---|
+|indexed|true일 때, 쿼리를 통해 필드 값을 문서에서 검색할 수 있다|true or false|true|
+|stored|true일 때, 쿼리를 통해 실제 값을 검색할 수 있다|true or false|true|
+|docValues|true일 때, 필드 값은 DocValues 구조로 사용할 수 있다|true or false|false|
+|sortMissingFirst|true일 때, 다른 정렬 제어가 없다면 해당 문서를 정렬 뒷부분에 배치한다|true or false|false|
+|sortMissingLast|true일 때, 다른 정렬 제어가 없다면 해당 문서를 정렬 앞부분에 배치한다|true or false|false|
+|multiValued|true일 때, 단일 문서에 해당 필드에 대한 값이 여러 개 저장될 수 있다|true or false|false|
+|omitNorms|true일 때, 해당 필드를 생략할 수 있다|true or false|*|
+|required|true일 때, 해당 필드에 대한 값이 필수로 입력되어야 한다|true or false|false|
+|large|large 필드는 항상 지연 로드된다(해당 옵션은 stored=true, multiValued=false가 되어야 한다). 메모리에 캐시 되지 않도록 매우 큰 값을 가질 수 있는 필드에 대한 설정|true or false|false|
+
 참고: https://solr.apache.org/guide/8_1/field-type-definitions-and-properties.html
+
+### Other Schema Elements
+
+- Unique Key
+
+Unique Key는 해당 문서의 고유 식별자 필드를 지정한다.
+
+- 사용 예시
+
+```xml
+<uniqueKey>id</uniqueKey>
+```
+
+https://solr.apache.org/guide/8_0/other-schema-elements.html

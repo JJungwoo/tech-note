@@ -92,7 +92,10 @@ Field는 solr에 색인할 문서가 어떻게 색인될지 정의하는 정보�
   - class : 데이터를 저장하고 인덱싱하는데 사용되는 클래스 (ex, solr.TextField, org.apache.solr.schema.TextField)
   - positionIncrementGap : 다중 값에 대한 필드를 색인할 때 사이 거리 값을 두고 색인을 지정하게 하여 잘못된 구문 일치를 방지하는 간격을 지정(설정 값: integer)
 
-https://solr.apache.org/guide/8_1/field-type-definitions-and-properties.html#general-properties
+>참고
+>1. https://solr.apache.org/guide/8_1/field-type-definitions-and-properties.html#general-properties
+>2. https://solr-user.lucene.apache.narkive.com/YxcxunJE/positionincrementgap-what-is-its-value-meaning
+
 
 - Field Default Properties
 

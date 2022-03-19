@@ -32,6 +32,17 @@ Solr가 한번에 반환 해주는 결과 문서의 개수를 설정할 수 있�
 
 score에 영향을 주지 않고 반환되는 문서의 결과에 대해 제한(필터링) 설정 파라미터
 
+- fl(Field List) Parameter
+
+query 응답 결과에 대해 특정 필드만 지정해서 제한된 결과를 설정하는 파라미터
+
+- debug Parameter
+
+query에 대한 디버깅 설정을 위한 파라미터
+요청한 query의 정보와 리턴된 결과에 대해 디버깅이 가능하다
+
+
+
 ## The DisMax Query Parser
 
 DisMax query parser는 사용자가 찾으려는 문법적으로 완전하지 못한 문장(쿼리)에 대해 각 필드의 가중치(boosts) 값을 기반으로 서로 다른 가중치 값을 사용해 여러 필드에서 개별 용어(term)를 검색하게 처리한다.
@@ -39,16 +50,17 @@ DisMax query parser는 사용자가 찾으려는 문법적으로 완전하지 �
 solrconfig.xml 의 requestHandler, Solr Query URL에서 옵션을 재정의하여 사용할 수 있다.
 
 
-- 참고
-  - https://solr.apache.org/guide/8_0/the-dismax-query-parser.html#q-parameter
 
 ### DisMax Query Parser Parameters
-
-
-
 
 
 ## The Extended DisMax(eDismax) Query Parser
 
 
+## Function Queries
+
+
+
+- 참고
+    - https://solr.apache.org/guide/8_11/searching.html
 
